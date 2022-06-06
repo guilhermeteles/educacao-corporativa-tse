@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    @@include('./includes/_meta.html', {
+    "titulo": "Educação Corporativa TSE - Cursos e eventos abertos"
+    })
+    @@include('./includes/_stylesheet.html', {
+    "owl": true,
+    "home": false,
+    "internas": true
+    })
+</head>
+
+<body>
+    @@include('./includes/_header.html')
+
+    <main id="conteudo" class="main cursos-eventos-abertos">
+        <div class="container">
+            <div class="row">
+                <h2 class="titulo">Cursos e eventos abertos</h2>
+                <div class="filtro">
+                    <form>
+                        <div class="row">
+                            <div class="col-12 col-md-1 titulo-filtro">Filtro</div>
+                            <div class="col-12 col-md-2">
+                                <label for="select-categoria" class="form-label">Categoria</label>
+                                <select id="select-categoria" class="form-select">
+                                    <option selected>Categoria</option>
+                                    <option>Opção 1</option>
+                                    <option>Opção 2</option>
+                                    <option>Opção 3</option>
+                                    <option>Opção 4</option>
+                                    <option>Opção 5</option>
+                                </select>
+                            </div>
+                            <div class="col-12 col-md-2">
+                                <label for="select-publico-alvo" class="form-label">Público-alvo</label>
+                                <select id="select-publico-alvo" class="form-select">
+                                    <option selected>Público-alvo</option>
+                                    <option>Opção 1</option>
+                                    <option>Opção 2</option>
+                                    <option>Opção 3</option>
+                                    <option>Opção 4</option>
+                                    <option>Opção 5</option>
+                                </select>
+                            </div>
+                            <div class="col-12 col-md-2">
+                                <label for="select-tematicas" class="form-label">Temáticas</label>
+                                <select id="select-tematicas" class="form-select">
+                                    <option selected>Temáticas</option>
+                                    <option>Opção 1</option>
+                                    <option>Opção 2</option>
+                                    <option>Opção 3</option>
+                                    <option>Opção 4</option>
+                                    <option>Opção 5</option>
+                                </select>
+                            </div>
+                            <div class="col-12 col-md-2">
+                                <label for="select-modalidade" class="form-label">Modalidade</label>
+                                <select id="select-modalidade" class="form-select">
+                                    <option selected>Modalidade</option>
+                                    <option>Opção 1</option>
+                                    <option>Opção 2</option>
+                                    <option>Opção 3</option>
+                                    <option>Opção 4</option>
+                                    <option>Opção 5</option>
+                                </select>
+                            </div>
+                        </div>
+                    </form>
+                </div>
+
+                <div class="subtitulo">
+                    <h3>Ambientação</h3>
+                    <span class="ver-todos">Ver todos <a href="#" class="link">aqui</a></span>
+                </div>
+
+                @@include('./includes/_carousel-cards.html', {
+                    "numerocards": 3
+                })
+
+                <div class="subtitulo">
+                    <h3>Auditoria</h3>
+                    <span class="ver-todos">Ver todos <a href="#" class="link">aqui</a></span>
+                </div>
+
+                @@include('./includes/_carousel-cards.html', {
+                    "numerocards": 3
+                })
+
+                <div class="subtitulo">
+                    <h3>Comunidade de gestão do conhecimento</h3>
+                    <span class="ver-todos">Ver todos <a href="#" class="link">aqui</a></span>
+                </div>
+
+                @@include('./includes/_carousel-cards.html', {
+                    "numerocards": 3
+                })
+
+
+            </div>
+        </div>
+    </main>
+
+    @@include('./includes/_duvidas.html', {
+    "pagina": false
+    })
+    @@include('./includes/_footer.html')
+    @@include('./includes/_scripts.html', {
+    "owl": true
+    })
+
+    @@include('./includes/_script-owl.html', {
+        "destroyDesktop": false,
+        "corSeta": "blue",
+        "loop": false,
+        "margin": 30,
+        "nav": true,
+        "dots": false,
+        "items0": 1,
+        "dots0": true,
+        "nav0": true,
+        "items600": 2,
+        "items1000": 3
+    })
+</body>
+
+</html>

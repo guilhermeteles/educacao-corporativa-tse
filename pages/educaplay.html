@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    @@include('./includes/_meta.html', {
+    "titulo": "Educação Corporativa TSE - Educaplay"
+    })
+    @@include('./includes/_stylesheet.html', {
+    "owl": true,
+    "fancybox": true,
+    "home": false,
+    "internas": true
+    })
+</head>
+
+<body>
+    @@include('./includes/_header.html')
+
+    <main id="conteudo" class="educaplay">
+        <div class="container">
+            <div class="row">
+                <div class="col-12 logo">
+                    <h2><img class="img-fluid" src="assets/img/logo-educaplay.svg" alt="EDUCAPLAY"></h2>
+                </div>
+                <div class="col-12 col-md-8 descricao">
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse efficitur neque a lacus
+                        vulputate ultrices. Nulla sit amet pulvinar velit. Fusce se</p>
+                </div>
+                <div class="col-12 col-md-8 text-center text-sm-start">
+                    <div class="group-title">Título do grupo 1</div>
+                </div>
+                @@include('./includes/_carousel-videos.html', {
+                "numerocards": 5
+                })
+                <div class="col-12 col-md-8 text-center text-sm-start">
+                    <div class="group-title">Título do grupo 2</div>
+                </div>
+                @@include('./includes/_carousel-videos.html', {
+                "numerocards": 5
+                })
+            </div>
+        </div>
+    </main>
+
+    @@include('./includes/_footer.html')
+    @@include('./includes/_scripts.html', {
+    "owl": true,
+    "fancybox": true
+    })
+
+    @@include('./includes/_script-owl.html', {
+    "destroyDesktop": false,
+    "corSeta": "pink",
+    "loop": false,
+    "margin": 30,
+    "nav": true,
+    "dots": false,
+    "items0": 1,
+    "dots0": true,
+    "nav0": true,
+    "items600": 2,
+    "items1000": 3
+    })
+</body>
+
+</html>

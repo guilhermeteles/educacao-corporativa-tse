@@ -1,0 +1,17 @@
+.destaques {
+    .cursos-oferecidos {
+        align-items: center;
+        display: flex;
+        justify-content: flex-end;
+        text-transform: uppercase;
+
+        @include media-breakpoint-down(sm) {
+            display: block;
+            text-align: center;
+        }
+
+        a {
+            margin: 0 5px;
+        }
+    }
+}

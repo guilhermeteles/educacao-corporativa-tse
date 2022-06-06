@@ -1,0 +1,72 @@
+.cursos-eventos-abertos {
+    .filtro {
+        text-transform: uppercase;
+
+        .titulo-filtro {
+            align-items: center;
+            display: flex;
+        }
+
+        .form-label {
+            display: none;
+        }
+
+        .form-select {
+            border-radius: $border-radius-padrao;
+            font-size: .85em;
+            text-transform: uppercase;
+
+            @include media-breakpoint-down(md) {
+                margin-top: 10px;
+            }
+        }
+    }
+
+    .subtitulo {
+        align-items: center;
+        border-bottom: 4px solid #2C4B4A;
+        display: flex;
+        justify-content: space-between;
+        margin: 100px 0 50px;
+        text-transform: uppercase;
+
+        @include media-breakpoint-down(md) {
+            display: block;
+        }
+
+        h3 {
+            font-family: 'Open Sans', sans-serif;
+
+            @include media-breakpoint-down(md) {
+                width: 100%;
+            }
+        }
+
+        .ver-todos {
+            @include media-breakpoint-down(md) {
+                display: block;
+                text-align: right;
+                width: 100%;
+            }
+
+            .link {
+                font-weight: bold;
+            }
+        }
+    }
+
+    &.internas {
+        .header-main {
+            font-size: 1.5em;
+            margin-bottom: 70px;
+            text-transform: uppercase;
+        }
+
+        .titulo {
+            border-bottom: 4px solid #2C4B4A;
+            margin-bottom: 70px;
+            padding-bottom: 10px;
+        }
+
+    }
+}

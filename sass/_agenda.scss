@@ -1,0 +1,85 @@
+.agenda {
+    .accordion {
+        .accordion-item {
+            background-color: transparent;
+            border-color: transparent;
+            margin-bottom: 20px;
+
+            .accordion-header {
+                .accordion-button {
+                    background-color: transparent;
+                    border-bottom: 1px solid #FFF;
+                    color: #FFF;
+                    font-family: 'Open Sans', sans-serif;
+                    font-weight: bold;
+                    text-transform: uppercase;
+
+                    &::after {
+                        background-image: url("data:image/svg+xml,%3C%3Fxml version='1.0' encoding='iso-8859-1'%3F%3E%3C!-- Generator: Adobe Illustrator 19.0.0  SVG Export Plug-In . SVG Version: 6.00 Build 0) --%3E%3Csvg version='1.1' id='Layer_1' xmlns='http://www.w3.org/2000/svg' xmlns:xlink='http://www.w3.org/1999/xlink' x='0px' y='0px' viewBox='0 0 455 455' style='enable-background:new 0 0 455 455%3B' xml:space='preserve' fill='%23FFF'%3E%3Cpolygon points='455 212.5 242.5 212.5 242.5 0 212.5 0 212.5 212.5 0 212.5 0 242.5 212.5 242.5 212.5 455 242.5 455 242.5 242.5 455 242.5 '/%3E%3C/svg%3E");
+                    }
+
+                    &:not(.collapsed) {
+                        &::after {
+                            transform: rotate(-225deg);
+                        }
+                    }
+                }
+            }
+
+            .accordion-collapse {
+                background-color: #FFF;
+                border-radius: 0 0 $border-radius-padrao/3 $border-radius-padrao/3;
+                color: #707070;
+                margin-bottom: 30px;
+
+                .accordion-body {
+                    padding: 3em 2em 1em;
+
+                    .eventos {
+                        border-bottom: 2px solid #707070;
+                        margin-bottom: 30px;
+                        padding: 0 1.5em;
+
+                        &:last-child {
+                            border: none;
+                            margin-bottom: 0;
+                        }
+
+                        .data {
+                            @include media-breakpoint-down(md) {
+                                margin-bottom: 50px;
+                            }
+                        }
+
+                        .informacao {
+                            .evento {
+                                .titulo {
+                                    font-weight: bold;
+
+                                    @include media-breakpoint-down(md) {
+                                        margin-bottom: 10px;
+                                    }
+                                }
+
+                                .saiba-mais {
+                                    text-align: right;
+
+                                    @include media-breakpoint-down(md) {
+                                        margin-bottom: 30px;
+                                        text-align: left;
+                                    }
+
+                                    .btn {
+                                        color: #FFF;
+                                        margin-top: 0;
+                                        text-transform: uppercase;
+                                    }
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}

@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    @@include('./includes/_meta.html', {
+    "titulo": "Educação Corporativa TSE - Cursos e eventos abertos - Ambientação"
+    })
+    @@include('./includes/_stylesheet.html', {
+    "owl": true,
+    "home": false,
+    "internas": true
+    })
+</head>
+
+<body>
+    @@include('./includes/_header.html')
+
+    <main id="conteudo" class="main cursos-eventos-abertos internas">
+        <div class="container">
+            <div class="row">
+                <div class="header-main">
+                    Cursos e eventos abertos
+                </div>
+
+                <h2 class="titulo">Ambientação</h2>
+
+                @@include('./includes/_carousel-cards.html', {
+                    "numerocards": 5
+                })
+
+            </div>
+        </div>
+    </main>
+
+    @@include('./includes/_duvidas.html', {
+    "pagina": false
+    })
+    @@include('./includes/_footer.html')
+    @@include('./includes/_scripts.html', {
+    "owl": true
+    })
+
+    @@include('./includes/_script-owl.html', {
+        "destroyDesktop": true,
+        "corSeta": "blue",
+        "loop": false,
+        "margin": 30,
+        "nav": true,
+        "dots": false,
+        "items0": 1,
+        "dots0": true,
+        "nav0": true,
+        "items600": 2,
+        "items1000": 3
+    })
+
+</body>
+
+</html>

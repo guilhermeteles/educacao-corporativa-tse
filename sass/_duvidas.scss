@@ -1,0 +1,74 @@
+.duvidas {
+    align-items: center;
+    color: #194253;
+    background-image: url('../img/bg-duvidas.png');
+    background-position: top center;
+    background-repeat: repeat-x;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    min-height: 350px;
+
+    .titulo {
+        text-align: center;
+    }
+    
+    .texto {
+        text-align: center;
+        font-size: .85em;
+    }
+
+    .btn {
+        background-color: #05102E;
+        border-radius: $border-radius-padrao;
+        color: #FFF;
+        font-size: .9em;
+        font-weight: bold;
+        padding-left: 4em;
+        padding-right: 4em;
+
+        &:hover {
+            background-color: rgba($color: #05102E, $alpha: .9);
+        }
+    }
+
+    &.pagina-duvidas {
+        background-image: url('../img/bg-duvidas-pagina.png');
+        background-repeat: repeat;
+        padding-top: 70px;
+        padding-bottom: 70px;
+
+        .accordion {
+            margin: 70px auto;
+            max-width: 800px;
+
+            @include media-breakpoint-down(sm) {
+                max-width: 90%;
+            }
+            
+            .accordion-item {
+                background-color: transparent;
+                margin-top: 20px;
+                
+                .accordion-header {
+                    
+                    .accordion-button {
+                        background-color: #1B305A;
+                        border-radius: $border-radius-padrao;
+                        color: #FFF;
+                        font-family: 'Open Sans', sans-serif;
+
+                        &::after {
+                            background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 16' fill='%23FFF'%3e%3cpath fill-rule='evenodd' d='M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z'/%3e%3c/svg%3e");
+                        }
+
+                    }
+                }
+
+                .accordion-collapse {
+                    background-color: #FFF;
+                }
+            }
+        }
+    }
+}

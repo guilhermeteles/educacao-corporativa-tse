@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    @@include('./includes/_meta.html', {
+    "titulo": "Educação Corporativa TSE - Resultado para 'Processo eleitoral'"
+    })
+    @@include('./includes/_stylesheet.html', {
+    "owl": false,
+    "home": false,
+    "internas": true
+    })
+</head>
+
+<body>
+    @@include('./includes/_header.html')
+
+    <main id="conteudo" class="main resultado internas">
+        <div class="container">
+            <div class="row">
+
+                <h2 class="titulo">Resultado para "Processo eleitoral"</h2>
+
+                <div class="itens-encontrados">
+                    FORAM ENCONTRADOS 8 <strong>ÍTENS</strong>
+                </div>
+
+                @@include('./includes/_itens-busca.html')
+
+                <div class="mostrar-mais esconder">
+                    <a class="link mais" href="javascript:;">MOSTRAR MAIS</a>
+                </div>
+
+            @@include('./includes/_paginacao.html')
+            </div>
+        </div>
+    </main>
+
+    @@include('./includes/_duvidas.html', {
+    "pagina": false
+    })
+    @@include('./includes/_footer.html')
+    @@include('./includes/_scripts.html', {
+    "owl": false
+    })
+
+</body>
+
+</html>

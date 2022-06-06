@@ -1,0 +1,30 @@
+.educaplay {
+    background: rgb(18,69,120);
+    background: url('../img/bg-educaplay.png'), linear-gradient(180deg, rgba(18,69,120,1) 0%, rgba(10,30,53,1) 100%);
+    background-position: center;
+    background-repeat: no-repeat;
+    color: #FFF;
+    padding: 100px 0;
+
+    .logo {
+        text-align: center;
+    }
+
+    .descricao {
+        margin: 50px auto 100px;
+    }
+    .group-title{
+        margin: 0 0 20px 0;
+        font-size: 2rem;
+    }
+    .card{
+        background-color: transparent!important;
+        .video-img {
+            object-fit: cover;
+            border-radius: $border-radius-padrao/3;
+        }
+    }
+    figcaption{
+        margin-top:1rem;
+    }
+}

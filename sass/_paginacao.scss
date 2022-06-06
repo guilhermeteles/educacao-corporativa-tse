@@ -1,0 +1,32 @@
+.paginacao {
+    margin-top: 50px;
+
+    .pagination {
+        justify-content: center;
+        font-weight: 500;
+
+        .page-item {
+            &.active {
+                .page-link {
+                    color: #FADB77;
+                    font-weight: bold;
+                }
+            }
+            .page-link {
+                background: transparent;
+                border: none;
+                padding: 6px 20px;
+
+                &:hover {
+                    color: #FADB77;
+                }
+            }
+        }
+    }
+
+    @include media-breakpoint-down(sm) {
+        .hidden-mobile {
+            display: none;
+        }
+    }
+}

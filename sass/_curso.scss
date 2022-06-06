@@ -1,0 +1,192 @@
+$carga-horaria: "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 384 512' fill='%23FFF'%3E%3C!--! Font Awesome Pro 6.1.1 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2022 Fonticons, Inc. --%3E%3Cpath d='M352 0C369.7 0 384 14.33 384 32C384 49.67 369.7 64 352 64V74.98C352 117.4 335.1 158.1 305.1 188.1L237.3 256L305.1 323.9C335.1 353.9 352 394.6 352 437V448C369.7 448 384 462.3 384 480C384 497.7 369.7 512 352 512H32C14.33 512 0 497.7 0 480C0 462.3 14.33 448 32 448V437C32 394.6 48.86 353.9 78.86 323.9L146.7 256L78.86 188.1C48.86 158.1 32 117.4 32 74.98V64C14.33 64 0 49.67 0 32C0 14.33 14.33 0 32 0H352zM111.1 128H272C282.4 112.4 288 93.98 288 74.98V64H96V74.98C96 93.98 101.6 112.4 111.1 128zM111.1 384H272C268.5 378.7 264.5 373.7 259.9 369.1L192 301.3L124.1 369.1C119.5 373.7 115.5 378.7 111.1 384V384z'/%3E%3C/svg%3E";
+$modalidade: "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 640 512' fill='%23fff'%3E%3C!--! Font Awesome Pro 6.1.1 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2022 Fonticons, Inc. --%3E%3Cpath d='M128 96h384v256h64v-272c0-26.38-21.62-48-48-48h-416c-26.38 0-48 21.62-48 48V352h64V96zM624 383.1h-608c-8.75 0-16 7.25-16 16v16c0 35.25 28.75 64 64 64h512c35.25 0 64-28.75 64-64v-16C640 391.2 632.8 383.1 624 383.1z'/%3E%3C/svg%3E";
+$publico-alvo: "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 640 512' fill='%23fff'%3E%3C!--! Font Awesome Pro 6.1.1 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2022 Fonticons, Inc. --%3E%3Cpath d='M319.9 320c57.41 0 103.1-46.56 103.1-104c0-57.44-46.54-104-103.1-104c-57.41 0-103.1 46.56-103.1 104C215.9 273.4 262.5 320 319.9 320zM369.9 352H270.1C191.6 352 128 411.7 128 485.3C128 500.1 140.7 512 156.4 512h327.2C499.3 512 512 500.1 512 485.3C512 411.7 448.4 352 369.9 352zM512 160c44.18 0 80-35.82 80-80S556.2 0 512 0c-44.18 0-80 35.82-80 80S467.8 160 512 160zM183.9 216c0-5.449 .9824-10.63 1.609-15.91C174.6 194.1 162.6 192 149.9 192H88.08C39.44 192 0 233.8 0 285.3C0 295.6 7.887 304 17.62 304h199.5C196.7 280.2 183.9 249.7 183.9 216zM128 160c44.18 0 80-35.82 80-80S172.2 0 128 0C83.82 0 48 35.82 48 80S83.82 160 128 160zM551.9 192h-61.84c-12.8 0-24.88 3.037-35.86 8.24C454.8 205.5 455.8 210.6 455.8 216c0 33.71-12.78 64.21-33.16 88h199.7C632.1 304 640 295.6 640 285.3C640 233.8 600.6 192 551.9 192z'/%3E%3C/svg%3E";
+$periodo-inscicao: "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 448 512' fill='%23fff'%3E%3C!--! Font Awesome Pro 6.1.1 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2022 Fonticons, Inc. --%3E%3Cpath d='M96 32C96 14.33 110.3 0 128 0C145.7 0 160 14.33 160 32V64H288V32C288 14.33 302.3 0 320 0C337.7 0 352 14.33 352 32V64H400C426.5 64 448 85.49 448 112V160H0V112C0 85.49 21.49 64 48 64H96V32zM448 464C448 490.5 426.5 512 400 512H48C21.49 512 0 490.5 0 464V192H448V464zM200 272V328H144C130.7 328 120 338.7 120 352C120 365.3 130.7 376 144 376H200V432C200 445.3 210.7 456 224 456C237.3 456 248 445.3 248 432V376H304C317.3 376 328 365.3 328 352C328 338.7 317.3 328 304 328H248V272C248 258.7 237.3 248 224 248C210.7 248 200 258.7 200 272z'/%3E%3C/svg%3E";
+$periodo-realizacao: "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 448 512' fill='%23fff'%3E%3C!--! Font Awesome Pro 6.1.1 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2022 Fonticons, Inc. --%3E%3Cpath d='M160 32V64H288V32C288 14.33 302.3 0 320 0C337.7 0 352 14.33 352 32V64H400C426.5 64 448 85.49 448 112V160H0V112C0 85.49 21.49 64 48 64H96V32C96 14.33 110.3 0 128 0C145.7 0 160 14.33 160 32zM0 192H448V464C448 490.5 426.5 512 400 512H48C21.49 512 0 490.5 0 464V192zM328.1 304.1C338.3 295.6 338.3 280.4 328.1 271C319.6 261.7 304.4 261.7 295 271L200 366.1L152.1 319C143.6 309.7 128.4 309.7 119 319C109.7 328.4 109.7 343.6 119 352.1L183 416.1C192.4 426.3 207.6 426.3 216.1 416.1L328.1 304.1z'/%3E%3C/svg%3E";
+$horario: "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 512 512' fill='%23FFF'%3E%3C!--! Font Awesome Pro 6.1.1 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2022 Fonticons, Inc. --%3E%3Cpath d='M256 512C114.6 512 0 397.4 0 256C0 114.6 114.6 0 256 0C397.4 0 512 114.6 512 256C512 397.4 397.4 512 256 512zM232 256C232 264 236 271.5 242.7 275.1L338.7 339.1C349.7 347.3 364.6 344.3 371.1 333.3C379.3 322.3 376.3 307.4 365.3 300L280 243.2V120C280 106.7 269.3 96 255.1 96C242.7 96 231.1 106.7 231.1 120L232 256z'/%3E%3C/svg%3E";
+$local: "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 576 512' fill='%23fff'%3E%3C!--! Font Awesome Pro 6.1.1 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2022 Fonticons, Inc. --%3E%3Cpath d='M384 476.1L192 421.2V35.93L384 90.79V476.1zM416 88.37L543.1 37.53C558.9 31.23 576 42.84 576 59.82V394.6C576 404.4 570 413.2 560.9 416.9L416 474.8V88.37zM15.09 95.13L160 37.17V423.6L32.91 474.5C17.15 480.8 0 469.2 0 452.2V117.4C0 107.6 5.975 98.78 15.09 95.13V95.13z'/%3E%3C/svg%3E";
+
+.curso {
+    background-color: #DBDBDB;
+    color: #1B305A;
+
+    .img-curso {
+        display: flex;
+        justify-content: center;
+
+        @include media-breakpoint-up(md) {
+            overflow: hidden;
+        }
+
+        img {
+            height: 100%;
+
+            @include media-breakpoint-down(md) {
+                height: auto;
+                max-width: 100%;
+            }
+        }
+    }
+    
+    h2 {
+        &.titulo{
+            margin: 100px 0 25px;
+        }
+    }
+
+    .conteudo {
+        margin: 25px 0;
+
+        .texto {
+            padding-right: 2em;
+
+            @include media-breakpoint-down(md) {
+                margin-bottom: 30px;
+            }
+
+            .btn {
+                background-color: #1B305A;
+                border-radius: $border-radius-padrao/3;
+                color: #FFF;
+                font-weight: bold;
+                margin-top: 30px;
+                padding: 1.2em 4em;
+
+                &:hover {
+                    opacity: .9;
+                }
+            }
+        }
+
+        .informacoes {
+            background-color: #1B305A;
+            color: #FFF;
+            border-radius: $border-radius-padrao/3;
+            min-height: 300px;
+            padding: 1.5em 3em;
+
+            .carga-horaria,
+            .modalidade,
+            .publico-alvo,
+            .periodo-inscicao,
+            .periodo-realizacao,
+            .horario,
+            .local {
+                display: grid;
+                grid-gap: 15px;
+                grid-template-columns: 1fr 5fr;
+                margin: 15px 0;
+
+                &::before {
+                    content: "";
+                    background-repeat: no-repeat;
+                    background-size: contain;
+                    background-position: center;
+                }
+
+                .texto {
+                    font-weight: bold;
+                }
+
+            }
+
+            .carga-horaria {
+                &::before {
+                    background-image: url($carga-horaria);
+                }
+            }
+
+            .modalidade {
+                &::before {
+                    background-image: url($modalidade);
+                }
+            }
+
+            .publico-alvo {
+                &::before {
+                    background-image: url($publico-alvo);
+                }
+            }
+
+            .periodo-inscicao {
+                &::before {
+                    background-image: url($periodo-inscicao);
+                }
+            }
+
+            .periodo-realizacao {
+                &::before {
+                    background-image: url($periodo-realizacao);
+                }
+            }
+
+            .horario {
+                &::before {
+                    background-image: url($horario);
+                }
+            }
+
+            .local {
+                &::before {
+                    background-image: url($local);
+                }
+            }
+        }
+    }
+
+    .modulos {
+        display: grid;
+        grid-gap: 30px;
+        grid-template-columns: 1fr 1fr 1fr;
+        margin: 25px 0 100px;
+
+        @include media-breakpoint-down(md) {
+            grid-template-columns: 1fr;
+        }
+
+        .modulo {
+            background-color: #FFF;
+            border-radius: $border-radius-padrao/3;
+            padding: 1.5em;
+
+            .titulo {
+                font-family: 'Open Sans', sans-serif;
+                font-weight: bold;
+            }
+
+            .lista-disciplina {
+                list-style: none;
+                padding: 0;
+
+                .item {
+                    background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='11.121' height='19.243' viewBox='0 0 11.121 19.243'%3E%3Cpath id='Caminho_5553' data-name='Caminho 5553' d='M950.43 1018.434l7.5-7.5 7.5 7.5' transform='translate(1020.556 -948.308) rotate(90)' fill='none' stroke='%231b305a' stroke-linecap='round' stroke-linejoin='round' stroke-width='3'/%3E%3C/svg%3E");
+                    background-position: left center;
+                    background-repeat: no-repeat;
+                    background-size: 7px;
+                    padding: .7em 0 .7em 15px;
+
+                    .link {
+                        color: #1B305A;
+                        text-decoration: none;
+
+                        &:hover {
+                            text-decoration: underline;
+                        }
+                    }
+                }
+            }
+        }
+    }
+
+    .main {
+        .subtitulo {
+            border-bottom: 4px solid #2C4B4A;
+            margin-bottom: 70px;
+            text-transform: uppercase;
+
+            h3 {
+                font-family: 'Open Sans', sans-serif;
+            }
+        }
+    }
+}
